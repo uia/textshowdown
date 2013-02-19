@@ -57,13 +57,14 @@ textarea {
    Template
    ========================================================================== */
 
+
 /* font-including */
 
 @font-face {
-  font-family: 'Special Elite';
+  font-family: 'Press Start 2P';
   font-style: normal;
   font-weight: 400;
-  src: local('Special Elite'), local('SpecialElite-Regular'), url(fonts/specialelite.woff) format('woff');
+  src: local('Press Start 2P'), local('PressStart2P-Regular'), url(fonts/pressstart2p.woff) format('woff');
 }
 
 /* background and standard fonts */
@@ -88,22 +89,20 @@ body {
 
 #top h1.logo {
     font-size: 35px;
-    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
     text-align: left;
-    padding: 9px 20px;
+    padding: 7px 10px;
     float: left;
     margin: 0;
-    text-shadow: 0 0 4px #272525;
 }
 
 #top span.desc {
-    font-size: 23px;
-    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
     text-align: left;
-    padding: 18px 20px;
+    padding: 23px 20px;
     float: right;
     margin: 0;
-    text-shadow: 0 0 4px #272525;
 }
 
 /* clear floats */
@@ -130,7 +129,7 @@ body {
 }
 
 .specialelite {
-    font-family: 'Special Elite', Arial, Helvetica, sans-serif !important;    
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif !important;    
 }
 
 .halbe-box { width: 47.5%; }
