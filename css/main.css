@@ -83,6 +83,7 @@ body {
 #top {
     height: 65px;
     background: rgba(255,255,255, 0.5);
+    box-shadow: 0 0 7px #999;
 }
 
 #top h1.logo {
@@ -123,6 +124,76 @@ body {
     background: linear-gradient(to bottom, rgba(255,255,255,0.75) 0%,#f6f6f6 47%,#ededed 100%);
     margin: 10px auto 0;
 }
+
+.centered {
+    text-align: center;
+}
+
+.specialelite {
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif !important;    
+}
+
+.halbe-box { width: 47.5%; }
+.drittel-box { width: 30.5%; }
+.viertel-box { width: 21.9%; }
+.fuenftel-box { width: 16.7%; }
+.zweidrittel-box { width: 65.3%; }
+.dreiviertel-box { width: 74.0%; }
+.zweifuenftel-box { width: 37.2%; }
+.dreifuenftel-box { width: 58.0%; }
+.vierfuenftel-box { width: 79.0%; }
+
+.halbe-box, .drittel-box, .zweidrittel-box, .viertel-box, .dreiviertel-box, .fuenftel-box, .zweifuenftel-box, .dreifuenftel-box, .vierfuenftel-box {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 15px;
+}
+
+.lastbox {
+    margin-right: 0 !important;
+}
+
+a {
+    color: #B43905;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: square;
+}
+
+ul.games {
+    display: block;
+    list-style: none;
+    padding: 10px;
+}
+
+ul.games li {
+    border-bottom: 1px solid #555;
+    padding: 5px 0;
+    font-size: 1.1em;
+
+}
+
+ul.games li span.rate {
+    float: right;
+    font-size: 0.8em;
+
+}
+
+ul.games li a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 3px #666;
+}
+
+
 
 /* ==========================================================================
    helper classes
