@@ -12,18 +12,15 @@
 </div>
 <div class="halbe-box lastbox">
     <ul class="games">
-        <li><i>game in development (<a href="#">Story</a>)</i></span></li>
-        <li><i>game in development (<a href="#">Story</a>)</i></span></li>
+        <li><i>game in development (<a href="#">Story</a>)</i></li>
+        <li><i>game in development (<a href="#">Story</a>)</i></li>
     </ul>
 </div>
 <div class="clearfix"></div>
-<p>
-    <b>Information:</b>
-    <ul>
-        <li>To protect the system from spamers and haters, you have to finish the game to rate it.</li>
-        <li>The time is a given value by the story author. The actual time depends on you!</li>
-        <li>There is a keyword for each chapter of a game to join it as 'savegame'. Please don't publish the words, because nobody likes cheating!</li><br>
-        <li>You want to include a game story? Read the instructions <a href="#">here</a></li>
-    </ul>
-    
-</p>
+<b>Information:</b>
+<ul>
+    <li>To protect the system from spamers and haters, you have to finish the game to rate it.</li>
+    <li>The time is a given value by the story author. The actual time depends on you!</li>
+    <li>There is a keyword for each chapter of a game to join it as 'savegame'. Please don't publish the words, because nobody likes cheating!</li><br>
+    <li>You want to include a game story? Read the instructions <a href="#">here</a></li>
+</ul>    
