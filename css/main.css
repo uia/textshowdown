@@ -19,13 +19,13 @@ body {
 }
 
 ::-moz-selection {
-    background: #A53434;
+    background: #3347A6;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #A53434;
+    background: #3347A6;
     color: white;
     text-shadow: none;
 }
@@ -61,16 +61,20 @@ textarea {
 /* font-including */
 
 @font-face {
-  font-family: 'Press Start 2P';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Press Start 2P'), local('PressStart2P-Regular'), url(fonts/pressstart2p.woff) format('woff');
+    font-family: 'BebasNeue';
+    src:    local('BebasNeue'), 
+            local('BebasNeueRegular'), 
+            url('fonts/BebasNeue.woff') format('woff'),
+            url('fonts/BebasNeue.svg#BebasNeueRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 /* background and standard fonts */
 
 body {
-    background: url(./../img/bg.jpg) no-repeat center center fixed; 
+    background: url(./../img/bg.jpg) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,35 +83,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* top of the page */
-
-#top {
-    height: 65px;
-    background: rgba(255,255,255, 0.5);
-    box-shadow: 0 0 7px #999;
+span.logo {
+    font-size: 75px;
+    font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
+    margin: 5px 0px 0px 10px;
+    padding: 5px 0px 0 0;
+    color: #fff;
 }
 
-#top h1.logo {
-    font-size: 35px;
-    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 7px 10px;
-    float: left;
-    margin: 0;
+span.slogan {
+    font-size: 28px;
+    font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 
-#top span.desc {
-    font-size: 13px;
-    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 23px 20px;
-    float: right;
-    margin: 0;
-}
-
-/* clear floats */
-#top:before, #top:after {content: " ";display: table;}
-#top:after {clear: both;}
+/* LAYOUT */
 
 #wrapper {
     width: 930px;
@@ -115,34 +105,30 @@ body {
     border-radius: 3px;
     padding: 15px;
     background: #ffffff;
-    background: -moz-linear-gradient(top, rgba(255,255,255,0.75) 0%, #f6f6f6 47%, #ededed 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.75)), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0.75) 0%,#f6f6f6 47%,#ededed 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,0.75) 0%,#f6f6f6 47%,#ededed 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,0.75) 0%,#f6f6f6 47%,#ededed 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,0.75) 0%,#f6f6f6 47%,#ededed 100%);
-    margin: 10px auto 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.85) 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.85)), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.85) 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.85) 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.85) 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%,#f6f6f6 47%,#ededed 100%);
+    margin: 0 auto;
 }
 
 .centered {
     text-align: center;
 }
 
-.specialelite {
-    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif !important;    
-}
+.half-box         {width: 47.5%;}
+.third-box        {width: 30.5%;}
+.quarter-box      {width: 21.9%;}
+.fifth-box        {width: 16.7%;}
+.twothirds-box    {width: 65.3%;}
+.threequaters-box {width: 74.0%;}
+.twofifth-box     {width: 37.2%;}
+.threefifth-box   {width: 58.0%;}
+.fourfifth-box    {width: 79.0%;}
 
-.halbe-box { width: 47.5%; }
-.drittel-box { width: 30.5%; }
-.viertel-box { width: 21.9%; }
-.fuenftel-box { width: 16.7%; }
-.zweidrittel-box { width: 65.3%; }
-.dreiviertel-box { width: 74.0%; }
-.zweifuenftel-box { width: 37.2%; }
-.dreifuenftel-box { width: 58.0%; }
-.vierfuenftel-box { width: 79.0%; }
-
-.halbe-box, .drittel-box, .zweidrittel-box, .viertel-box, .dreiviertel-box, .fuenftel-box, .zweifuenftel-box, .dreifuenftel-box, .vierfuenftel-box {
+.half-box, .third-box, .twothirds-box, .quarter-box, .threequaters-box, .fifth-box, .twofifth-box, .threefifth-box, .fourfifth-box {
     position: relative;
     display: inline-block;
     *display: inline;
@@ -155,8 +141,79 @@ body {
     margin-right: 0 !important;
 }
 
+#games {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* GAMEVIEW */
+
+.game {
+    background-color: #222;
+    color:#fff;
+    height: 130px;
+    box-shadow: 0 0 9px #aaa;
+}
+
+.game:hover {
+    box-shadow: 0 0 9px #000;
+}
+
+.game, .game:hover {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+/* GAMETOOLTIPS */
+
+.game span {
+    font-weight: 400;
+    visibility: hidden;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 80%;
+    z-index: 999;
+    width: 250px;
+    margin-left: 20px;
+    padding: 5px;
+    line-height: 1.5;
+    background-color: #ddd;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0,1);
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+.game:hover span {
+    visibility: visible;
+    opacity: 0.95;
+    outline: none;
+}
+
+.game img { /*optimal size for img -> h:130px;w:100px;*/
+    width: 100%;
+    height: 100%;
+}
+
+i.rate {
+    float: right;
+    font-size: 0.95em;
+}
+
+/* TEXT STYLE */
+
 a {
-    color: #B43905;
+    color: #1848A0;
     text-decoration: none;
 }
 
@@ -164,33 +221,17 @@ a:hover {
     text-decoration: underline;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: "BebasNeue", Helvetica, Arial;
+}
+
+h1. {font-size: 2.3em;}
+
 ul {
     list-style: square;
 }
 
-ul.games {
-    display: block;
-    list-style: none;
-    padding: 10px;
-}
-
-ul.games li {
-    border-bottom: 1px solid #555;
-    padding: 5px 0;
-    font-size: 1.1em;
-
-}
-
-ul.games li span.rate {
-    float: right;
-    font-size: 0.8em;
-
-}
-
-ul.games li a:hover {
-    text-decoration: none;
-    text-shadow: 0 0 3px #666;
-}
 
 
 

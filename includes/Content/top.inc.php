@@ -11,8 +11,7 @@
 
     </head>
     <body>
-        <div id="top">
-            <h1 class="logo">TextShowdown</h1>
-            <span class="desc">text-based online games</span>
-        </div>
+        <span class="logo">TextShowdown</span>
+        <span class="slogan">text-based online games</span>
+        <div class="clearfix"></div>
         <div id="wrapper">
