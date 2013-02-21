@@ -28,7 +28,7 @@
     <li>To protect the system from spamers and haters, you have to finish the game to rate it.</li>
     <li>The time is a given value by the story author. The actual time depends on you!</li>
     <li>There is a keyword for each chapter of a game to join it as 'savegame'. Please don't publish the words, because nobody likes cheating!</li><br>
-    <li>You want to include a game story? Read the instructions <a href="#">here</a></li>
+    <li>You want to include a game story? Read the instructions <a href="#">here</a>.</li>
 </ul>    
 
 <!--<h1 class="cf">Heading 1</h1>

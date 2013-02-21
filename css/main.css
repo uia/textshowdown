@@ -4,6 +4,29 @@
 
     thanks to: HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
+/* ==========================================================================
+   fonts
+   ========================================================================== */
+
+/* HEADINGS & LOGO */
+@font-face {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: 400;
+    src:    local('BebasNeue'), 
+            local('BebasNeueRegular'), 
+            url(fonts/BebasNeue.woff) format('woff'),
+            url(fonts/BebasNeue.svg#BebasNeueRegular) format('svg');wg
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:    local('Open Sans'), 
+            local('OpenSans'), 
+            url(fonts/OpenSans.woff) format('woff');   
+}
 
 /* ==========================================================================
    custom browser-resets
@@ -57,36 +80,22 @@ textarea {
    Template
    ========================================================================== */
 
-
-/* font-including */
-
-@font-face {
-    font-family: 'BebasNeue';
-    src:    local('BebasNeue'), 
-            local('BebasNeueRegular'), 
-            url('fonts/BebasNeue.woff') format('woff'),
-            url('fonts/BebasNeue.svg#BebasNeueRegular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-
-}
-
 /* background and standard fonts */
 
 body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     background: url(./../img/bg.jpg) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 span.logo {
     font-size: 75px;
     font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
-    margin: 5px 0px 0px 10px;
+    margin: 5px 0px 0px 15px;
     padding: 5px 0px 0 0;
     color: #fff;
 }
@@ -198,6 +207,10 @@ span.slogan {
     visibility: visible;
     opacity: 0.95;
     outline: none;
+}
+
+.game span:hover {
+    opacity: 0.5;
 }
 
 .game img { /*optimal size for img -> h:130px;w:100px;*/
